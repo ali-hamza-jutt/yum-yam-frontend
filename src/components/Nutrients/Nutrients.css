@@ -1,0 +1,34 @@
+.nutrients-component {
+    margin: 3rem 10rem;
+  }
+  
+  .nutrients-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .nutrient-circle {
+    text-align: center;
+  }
+  
+  .nutrient-info {
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  .quantity {
+    margin-top: 2px;
+    font-size: 14px;
+    color: #666;
+  }
+  .nutrient-name{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+  }
+  .nutrient-percentage{
+    margin: 0;
+    padding: 0;
+  }
+  

@@ -1,0 +1,32 @@
+.review-box-container{
+    padding: 0 10rem 0 10rem ;
+}
+.review-box{
+    display: flex;
+}
+
+.name-and-time{
+    display: flex;
+}
+.reviewer-photo{
+    margin-right: 1rem;
+}
+.reviewer-details{
+    margin-left: 1rem;
+}
+.reviewer-details p{
+    margin: 0.5rem;
+}
+.reviewer-rating{
+    margin: 0.5rem;
+}
+.reviwer-comment{
+    margin: 0.5rem;
+}
+.reviewer-name{
+    font-size: 20px;
+}
+.review-time{
+    color: rgb(0, 0, 0,0.5);
+    font-size: 18px;
+}

@@ -1,0 +1,30 @@
+ const photoUrls = [
+    'https://x.yummlystatic.com/web/bubble/cuisine/american.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/kid-friendly.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/italian.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/asian.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/mexican.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/french.png', 
+    'https://x.yummlystatic.com/web/bubble/cuisine/southwestern.png', 
+    'https://x.yummlystatic.com/web/bubble/cuisine/barbecue-bbq.png', 
+    'https://x.yummlystatic.com/web/bubble/cuisine/indian.png', 
+    'https://x.yummlystatic.com/web/bubble/cuisine/chinese.png', 
+    'https://x.yummlystatic.com/web/bubble/cuisine/mediterranean.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/greek.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/english.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/spanish.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/thai.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/german.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/moroccan.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/irish.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/japanese.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/cuban.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/hawaiian.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/swedish.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/hungarian.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/portuguese.png',
+    'https://x.yummlystatic.com/web/bubble/cuisine/brazilian.png',
+  
+  ];
+  
+  export default photoUrls

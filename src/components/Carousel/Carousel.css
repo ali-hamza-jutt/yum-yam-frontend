@@ -1,0 +1,116 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.carousel-container h1,
+h4 {
+  margin-bottom: 1.5rem;
+}
+
+.photo-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-list {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  position: relative;
+  flex: 0 0 11.1%; /* Adjust width to show 9 photos at a time */
+  margin: 5px;
+  transition: 0.5s ease;
+}
+
+.photo:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.arrow {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity */
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.left-arrow {
+  left: 15px;
+}
+
+.right-arrow {
+  right: 15px;
+}
+
+.arrow:hover {
+  opacity: 0.8; /* Reduced opacity on hover */
+}
+
+.find-cuisine {
+  padding: 20px;
+  font-size: 17px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  margin: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.find-cuisine:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .photo {
+    flex: 0 0 33.33%; /* Adjust width to show 3 photos at a time */
+  }
+
+  .arrow {
+    display: none; /* Hide arrows on small screens */
+  }
+}
